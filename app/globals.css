@@ -4,17 +4,17 @@
   --background: #fbfaf7;
   --foreground: #1f2b2e;
 
-  /* Calming, modern dental-brand palette */
-  --color-brand-50: #eef7f6;
-  --color-brand-100: #d7ece9;
-  --color-brand-200: #b2dbd4;
-  --color-brand-300: #85c4ba;
-  --color-brand-400: #5aa89c;
-  --color-brand-500: #3d8c7f;
-  --color-brand-600: #2f7067;
-  --color-brand-700: #285a54;
-  --color-brand-800: #234844;
-  --color-brand-900: #1e3b38;
+  /* Bold red dental-brand palette */
+  --color-brand-50: #fef2f2;
+  --color-brand-100: #fee2e2;
+  --color-brand-200: #fecaca;
+  --color-brand-300: #fca5a5;
+  --color-brand-400: #f87171;
+  --color-brand-500: #ef4444;
+  --color-brand-600: #dc2626;
+  --color-brand-700: #b91c1c;
+  --color-brand-800: #991b1b;
+  --color-brand-900: #7f1d1d;
 
   --color-accent-50: #fff6ed;
   --color-accent-100: #ffe8d1;
