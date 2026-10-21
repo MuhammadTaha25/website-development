@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
-  <rect width="800" height="600" fill="#eef7f6"/>
-  <rect x="60" y="60" width="680" height="480" rx="24" fill="#b2dbd4"/>
-  <text x="400" y="310" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#2f7067" text-anchor="middle">
+  <rect width="800" height="600" fill="#fef2f2"/>
+  <rect x="60" y="60" width="680" height="480" rx="24" fill="#fecaca"/>
+  <text x="400" y="310" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#991b1b" text-anchor="middle">
     Before / After placeholder
   </text>
 </svg>
