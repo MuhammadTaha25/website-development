@@ -1,0 +1,13 @@
+
+> bright-smile-dental@0.1.0 dev
+> next dev
+
+▲ Next.js 16.4.2 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.16.109.6:3000
+✓ Ready in 1497ms
+✓ Running next.config.ts took 70ms
+
+✓ Generated AGENTS.md for AI agents. Set `agentRules: false` in next.config to disable.
+
+D:\website development>

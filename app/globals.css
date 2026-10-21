@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbfaf7;
+  --foreground: #1f2b2e;
+
+  /* Calming, modern dental-brand palette */
+  --color-brand-50: #eef7f6;
+  --color-brand-100: #d7ece9;
+  --color-brand-200: #b2dbd4;
+  --color-brand-300: #85c4ba;
+  --color-brand-400: #5aa89c;
+  --color-brand-500: #3d8c7f;
+  --color-brand-600: #2f7067;
+  --color-brand-700: #285a54;
+  --color-brand-800: #234844;
+  --color-brand-900: #1e3b38;
+
+  --color-accent-50: #fff6ed;
+  --color-accent-100: #ffe8d1;
+  --color-accent-200: #ffcd9f;
+  --color-accent-300: #ffab66;
+  --color-accent-400: #ff8a3d;
+  --color-accent-500: #f56f1f;
+  --color-accent-600: #d85813;
+
+  --color-neutral-50: #fbfaf7;
+  --color-neutral-100: #f4f2ed;
+  --color-neutral-200: #e7e3da;
+  --color-neutral-300: #d3cdc0;
+  --color-neutral-700: #3f4a4c;
+  --color-neutral-800: #2a3334;
+  --color-neutral-900: #1f2b2e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --color-brand-50: var(--color-brand-50);
+  --color-brand-100: var(--color-brand-100);
+  --color-brand-200: var(--color-brand-200);
+  --color-brand-300: var(--color-brand-300);
+  --color-brand-400: var(--color-brand-400);
+  --color-brand-500: var(--color-brand-500);
+  --color-brand-600: var(--color-brand-600);
+  --color-brand-700: var(--color-brand-700);
+  --color-brand-800: var(--color-brand-800);
+  --color-brand-900: var(--color-brand-900);
+
+  --color-accent-50: var(--color-accent-50);
+  --color-accent-100: var(--color-accent-100);
+  --color-accent-200: var(--color-accent-200);
+  --color-accent-300: var(--color-accent-300);
+  --color-accent-400: var(--color-accent-400);
+  --color-accent-500: var(--color-accent-500);
+  --color-accent-600: var(--color-accent-600);
+
+  --color-neutral-50: var(--color-neutral-50);
+  --color-neutral-100: var(--color-neutral-100);
+  --color-neutral-200: var(--color-neutral-200);
+  --color-neutral-300: var(--color-neutral-300);
+  --color-neutral-700: var(--color-neutral-700);
+  --color-neutral-800: var(--color-neutral-800);
+  --color-neutral-900: var(--color-neutral-900);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-brand-500);
+  outline-offset: 2px;
+}
