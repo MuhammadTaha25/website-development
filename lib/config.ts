@@ -60,7 +60,7 @@ export const siteConfig = {
   },
 
   analytics: {
-    ga4MeasurementId: process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID || "",
+    ga4MeasurementId: process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID || "G-YYMG1B1G6Q",
     callRailSwapId: process.env.NEXT_PUBLIC_CALLRAIL_SWAP_ID || "",
   },
 
