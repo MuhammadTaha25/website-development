@@ -8,6 +8,7 @@ const navLinks = [
   { href: "/services", label: "Services" },
   { href: "/about", label: "About" },
   { href: "/smile-gallery", label: "Smile Gallery" },
+  { href: "/blog", label: "Blog" },
   { href: "/reviews", label: "Reviews" },
   { href: "/contact", label: "Contact" },
 ];
@@ -15,7 +16,6 @@ const navLinks = [
 const patientInfoLinks = [
   { href: "/new-patients", label: "New Patients" },
   { href: "/insurance-financing", label: "Insurance & Financing" },
-  { href: "/blog", label: "Blog" },
 ];
 
 // All mobile links in one flat list, in a sensible reading order.
@@ -24,8 +24,9 @@ const allLinksForMobile = [
   navLinks[1],
   navLinks[2],
   navLinks[3],
-  ...patientInfoLinks,
   navLinks[4],
+  ...patientInfoLinks,
+  navLinks[5],
 ];
 
 export default function Header() {
