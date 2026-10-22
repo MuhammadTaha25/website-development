@@ -1,0 +1,12 @@
+{
+  "_comment": "Tracks keywords/slugs already published by the autoblog scheduled task so future runs don't repeat topics. Updated by each daily run.",
+  "publishedKeywords": [
+    {
+      "keyword": "all on 4 dental implants",
+      "slug": "all-on-4-dental-implants-complete-guide",
+      "publishedAt": "2026-10-22",
+      "searchVolumeUSA": 22200,
+      "seoDifficulty": 10
+    }
+  ]
+}
