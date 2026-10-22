@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/metadata";
 import { getBlogPosts, getBlogPostBySlug } from "@/lib/sanity-client";
+import { sanitizeBlogHtml } from "@/lib/sanitize-html";
 import CtaBanner from "@/components/CtaBanner";
 
 export async function generateStaticParams() {
@@ -66,7 +67,7 @@ export default async function BlogPostPage({
           className="prose-blog mt-8 flex flex-col gap-5 [&_h2]:mt-6 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-brand-800 [&_li]:ml-5 [&_li]:list-disc [&_li]:text-base [&_li]:leading-relaxed [&_li]:text-neutral-700 [&_p]:text-base [&_p]:leading-relaxed [&_p]:text-neutral-700 [&_a]:font-semibold [&_a]:text-brand-600 [&_a]:underline [&_a:hover]:text-brand-700 [&_ul]:flex [&_ul]:flex-col [&_ul]:gap-2"
         >
           {post.content.map((block, i) => (
-            <div key={i} dangerouslySetInnerHTML={{ __html: block }} />
+            <div key={i} dangerouslySetInnerHTML={{ __html: sanitizeBlogHtml(block) }} />
           ))}
         </div>
 
